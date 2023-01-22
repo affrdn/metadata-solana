@@ -15,9 +15,9 @@ async function newTokenMetadata() {
   const metadataPDA = await findMetadataPda(mint);
 
   const tokenMetaData = {
-    name: "Moanlana",
-    symbol: "MOAN",
-    uri: "https://raw.githubusercontent.com/affrdn/test-solana/main/metadata.json",
+    name: "ExampleLana",
+    symbol: "XLANA",
+    uri: "Metadata-url",
     sellerFeeBasisPoints: 0,
     creators: null,
     collection: null,
@@ -54,9 +54,9 @@ async function updateTokenMetadata() {
   const metadataPDA = await findMetadataPda(mint);
 
   const tokenMetaData = {
-    name: "Moanlana",
-    symbol: "MOAN",
-    uri: "https://raw.githubusercontent.com/affrdn/test-solana/main/metadata.json",
+    name: "Example Lana",
+    symbol: "XLANA",
+    uri: "metadata-url",
     sellerFeeBasisPoints: 0,
     creators: null,
     collection: null,

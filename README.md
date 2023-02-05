@@ -1,3 +1,4 @@
 # metadata-solana
-install node-ts
+install node-ts.
+
 run node-ts index.ts
